@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #FFF5F5; /* Fondo pastel suave */
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #5D3838; /* Color chocolate para el texto */
+}
+
+/* Sección de Bienvenida */
+.bienvenida {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #fff; /* O el color que prefieras */
+    margin-bottom: 50px;
+}
+
+.nivel_1, .nivel_2 {
+    margin: auto;
+    margin-top: 2.5vh;
+    width: 80vw;
+    height: 20vh;
+    border: 2px solid #000;
+    display: grid;
+}
+.nivel_3 {
+    margin: auto;
+    margin-top: 2.5vh;
+    width: 80vw;
+    height: 20vh;
+    border: 2px solid #000;
+    display: grid;
+}
+.nivel_4 {
+    margin: auto;
+    margin-top: 20vh;
+    width: 80vw;
+    height: 20vh;
+    border: 2px solid #000;
+    display: grid;
+}
+.nivel_5 {
+    margin: auto;
+    margin-top: 20vh;
+    width: 80vw;
+    height: 20vh;
+    border: 2px solid #000;
+    display: grid;
+}
+.nivel_6 {
+    margin: auto;
+    margin-top: 20vh;
+    width: 80vw;
+    height: 20vh;
+    border: 2px solid #000;
+    display: grid;
+}
