@@ -52,7 +52,7 @@ body {
     margin-bottom: 50px;
 }
 
-.contenedor-postres{
+.postres{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:60px;
@@ -72,6 +72,13 @@ body {
     border-radius:25px;
 
     padding: 5px 1%;
+    box-shadow:0 7px 15px rgba(0,0,0,0.3);
+}
+
+.tarjeta:hover{
+    transform:translateY(-5px); 
+    box-shadow:0 12px 25px rgba(0,0,0,0.3.5);
+    transition:0.3s;
 }
 
 .tarjeta img{/*Estilo de la imágen cada targeta*/
