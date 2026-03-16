@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding-top: 16vh;
+}
+
+.menu{
+    width: 84vw;
+    height: 10vh;
+    position: fixed;
+    left: 50%;
+    top:3vh;
+    transform: translateX(-50%);
+    border-radius:20px ;
+    background-color: #FFF5F5;
+    box-shadow :0 8px 10px #b47b7b  ;
+
+}
+
+.menu header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0 40px;
+    height: 100%;
+}
+
+
+.menu nav{
+   
+    display: flex;
+    gap: 25px;
+    margin-left: auto;
+}
+.menu nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding:10px;
+    border-radius: 10px;
+    background-color:#7f9c6e ;
+    transition: 0.6s;
+
+}
+.menu nav a:hover {
+    background-color: #e8d9c9;
+    color: #4b3427;
+    box-shadow :0 8px 10px #b47b7b  ;
+    
+}
+/*.logo{
+
+    
+}*/
+.tarjeta{
+    border-radius:20px ;
+    background-color: #FFF5F5;
+    box-shadow :0 8px 10px #b47b7b  ;
+    padding: 0 25px;
+       
+}
+
+.postre_info {
+        
+    margin: 6vh auto ; 
+    width: 68vw;
+    height: 40vh;
+    
+
+}
+.postre_info h2{
+    margin-top: 10px;
+}
+
+.lista_ingr{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 6vh;
+}
+
+.ingredientes{
+    width: 40vw;
+    height: 60vh;
+    
+}
+
+.info_extra{
+
+    width: 20vw;
+    height: 40vh;
+    
+}
+
+.receta{
+
+        
+    margin: 8vh auto; 
+    width: 68vw;
+    height: 40vh;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+.btn_volver img{
+    margin: auto;
+   /*width: ;
+    height: ;*/
+
+}
