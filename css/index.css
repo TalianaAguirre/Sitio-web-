@@ -1,60 +1,127 @@
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:15px 10%;
+
+background-color:#E8D9C9;
+border-bottom:4px solid #7F9C6E;
+}
+
+.logo{
+font-weight:bold;
+font-size:20px;
+color:#4B3427;
+}
+
+nav a{
+text-decoration:none;
+font-weight:bold;
+color:#4B3427;
+margin-left:20px;
+}
+
+nav a:hover{
+color:#7E5A8F;
+}
+
+.barra-verde{
+height:60px;
+background-color:#7F9C6E;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: #FFF5F5; /* Fondo pastel suave */
+    background-color:#FDF5E9;
     color: #333;
 }
 
-h1, h2 {
+.textobien {
     text-align: center;
-    color: #5D3838; /* Color chocolate para el texto */
+    color:#FDF5E9;
 }
 
 /* Sección de Bienvenida */
 .bienvenida {
     padding: 80px 10%;
     text-align: center;
-    background-color: #fff; /* O el color que prefieras */
+    background-color:#7F9C6E;
     margin-bottom: 50px;
 }
 
-.nivel_1, .nivel_2 {
-    margin: auto;
-    margin-top: 2.5vh;
-    width: 80vw;
-    height: 20vh;
-    border: 2px solid #000;
-    display: grid;
+.contenedor-postres{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:60px;
+    width:90%;
+    margin:auto;
+    align-items:stretch; /* hace que todas las tarjetas tengan la misma altura */
 }
-.nivel_3 {
-    margin: auto;
-    margin-top: 2.5vh;
-    width: 80vw;
-    height: 20vh;
-    border: 2px solid #000;
-    display: grid;
+
+.tarjeta {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    
+    background-color:#FFF9F2;
+    border:2px solid #493129;
+    border-radius:25px;
+
+    padding: 5px 1%;
 }
-.nivel_4 {
-    margin: auto;
-    margin-top: 20vh;
-    width: 80vw;
-    height: 20vh;
-    border: 2px solid #000;
-    display: grid;
+
+.tarjeta img{/*Estilo de la imágen cada targeta*/
+    width:150px;
+    height: auto;
+    margin:20px 0;
+    border-radius:12px;
 }
-.nivel_5 {
-    margin: auto;
-    margin-top: 20vh;
-    width: 80vw;
-    height: 20vh;
-    border: 2px solid #000;
-    display: grid;
+
+.texto h2{
+    justify-content: center;
+    margin-top: 0%;
+    margin-left: 35%;
+    color:#4A2C2A;
 }
-.nivel_6 {
-    margin: auto;
-    margin-top: 20vh;
-    width: 80vw;
-    height: 20vh;
-    border: 2px solid #000;
-    display: grid;
+
+.boton {
+    margin-top:auto;
+    background-color:#7F9C6E;
+    color:#FDF5E9;
+    padding:12px 25px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
 }
+.boton:hover {
+    
+    text-decoration: none;
+
+    background-color:#493129;
+    color: #FDF5E9;
+
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: all 0.3s ease; 
+    border: 3px solid transparent;
+}
+
+/*.imagen img {
+    max-width: 40%;
+    height: auto;
+}
+.tarta img{
+    max-width: 31%;
+    height: auto;
+}
+
+.sal img{
+    max-width: 26%;
+    height: auto;
+}*/
