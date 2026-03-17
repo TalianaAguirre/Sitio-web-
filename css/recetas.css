@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital@0;1&display=swap');
+
 body{
     margin:0;
     padding-top: 16vh;
+
 }
 
 .menu{
@@ -33,15 +37,19 @@ body{
 }
 .menu nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: #fde5b4;
     padding:10px;
     border-radius: 10px;
-    background-color:#7f9c6e ;
+    background-color:#76833b ;
     transition: 0.6s;
-
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
+
 .menu nav a:hover {
-    background-color: #e8d9c9;
+    background-color: #929d66;
     color: #4b3427;
     box-shadow :0 8px 10px #b47b7b  ;
     
@@ -52,15 +60,32 @@ body{
 }*/
 .tarjeta{
     border-radius:20px ;
-    background-color: #FFF5F5;
+    background-color: #9f7358;
     box-shadow :0 8px 10px #b47b7b  ;
     padding: 0 25px;
+
        
+}
+
+h2, h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #46110b;
+}
+
+p, li{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF5F5 ;
 }
 
 .postre_info {
         
-    margin: 6vh auto ; 
+    margin: 6vh auto ;
     width: 68vw;
     height: 40vh;
     
@@ -94,8 +119,8 @@ body{
 
         
     margin: 8vh auto; 
-    width: 68vw;
-    height: 40vh;
+    width: 68vw ;
+    height: auto;
 
 }
 
