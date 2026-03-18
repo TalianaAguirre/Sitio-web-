@@ -55,10 +55,13 @@ body{
     box-shadow :0 8px 10px #b47b7b  ;
     
 }
-/*.logo{
-
+.logo img{
+width: 140px;
+height: auto;
+display: flex;
+align-items: flex-start;
     
-}*/
+}
 .tarjeta{
     border-radius:18px ;
     background-color: #ffffff;
