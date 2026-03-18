@@ -149,10 +149,52 @@ footer{
     justify-content: center;
     margin-top: 6vh;
 }
-
-.btn_volver img{
-    margin: auto;
-   /*width: ;
-    height: ;*/
-
+.btn_volver{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
 }
+
+.btn1{
+    background-image: url("../elementos/Recurso\ 5.png");
+}
+.btn1:hover{
+    background-image: url("../elementos/Recurso\ 4.png");
+}
+
+
+.btn2{
+    background-image: url("../elementos/Recurso\ 5.png");
+}
+.btn2:hover{
+    background-image: url("../elementos/Recurso\ 4.png");
+}
+
+
+.btn3{
+    background-image: url("../elementos/Recurso\ 5.png");
+}
+.btn3:hover{
+    background-image: url("../elementos/Recurso\ 4.png");
+}
+
+
+.btn4{
+    background-image: url("../elementos/Recurso\ 3.png");
+}
+.btn4:hover{
+    background-image: url("../elementos/botòn\ espichado.png");
+}
+
+
+.btn5{
+    background-image: url("../elementos/Recurso\ 5.png");
+}
+.btn5:hover{
+    background-image: url("../elementos/recurso 4.png");
+}
+

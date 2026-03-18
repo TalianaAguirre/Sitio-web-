@@ -1,5 +1,7 @@
 
 .menu{
+
+    z-index: 1000;
     width: 84vw;
     height: 10vh;
     position: fixed;
@@ -43,17 +45,6 @@
     
 }
 
-/*header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-
-padding:15px 10%;
-
-background-color:#E8D9C9;
-border-bottom:4px solid #7F9C6E;
-}*/
-
 .logo{
 font-weight:bold;
 font-size:20px;
@@ -77,11 +68,11 @@ background-color:#7F9C6E;
 }
 
 body {
-    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-color:#FDF5E9;
-    color: #232323;
+    color: #333;
+     
 }
 
 .textobien {
@@ -103,7 +94,7 @@ body {
     gap:60px;
     width:90%;
     margin:auto;
-    align-items:stretch; /* hace que todas las tarjetas tengan la misma altura */
+    align-items:stretch; /*hace que todas las tarjetas tengan la misma altura */
 }
 
 .tarjeta {
@@ -140,7 +131,8 @@ body {
     color:#4A2C2A;
 }
 
-.boton {
+.boton{
+  
     margin-top:auto;
     background-color:#841c43;
     color:#FDF5E9;
@@ -149,8 +141,8 @@ body {
     text-decoration:none;
     font-weight:bold;
 }
+
 .boton:hover {
-    
     text-decoration: none;
 
     background-color:#4f6815;
@@ -164,16 +156,5 @@ body {
     border: 3px solid transparent;
 }
 
-/*.imagen img {
-    max-width: 40%;
-    height: auto;
-}
-.tarta img{
-    max-width: 31%;
-    height: auto;
-}
 
-.sal img{
-    max-width: 26%;
-    height: auto;
-}*/
+
