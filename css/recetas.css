@@ -4,6 +4,7 @@
 body{
     margin:0;
     padding-top: 16vh;
+    background-color: #FDF5E9;
 
 }
 
@@ -15,7 +16,7 @@ body{
     top:3vh;
     transform: translateX(-50%);
     border-radius:20px ;
-    background-color: #FFF5F5;
+    background-color: #f1dac7;
     box-shadow :0 8px 10px #b47b7b  ;
 
 }
@@ -37,10 +38,10 @@ body{
 }
 .menu nav a {
     text-decoration: none;
-    color: #fde5b4;
+    color: #ffffff;
     padding:10px;
     border-radius: 10px;
-    background-color:#76833b ;
+    background-color:#841c43;
     transition: 0.6s;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -49,8 +50,8 @@ body{
 }
 
 .menu nav a:hover {
-    background-color: #929d66;
-    color: #4b3427;
+    background-color: #4f6815;
+    color: #ffffff;
     box-shadow :0 8px 10px #b47b7b  ;
     
 }
@@ -59,10 +60,12 @@ body{
     
 }*/
 .tarjeta{
-    border-radius:20px ;
-    background-color: #9f7358;
-    box-shadow :0 8px 10px #b47b7b  ;
+    border-radius:18px ;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 10px 20px #d6d6d6;
     padding: 0 25px;
+    color:#493129;
 
        
 }
@@ -72,7 +75,9 @@ h2, h3{
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    color: #46110b;
+    color: #841c43;
+    font-size: clamp(18px, 2.5vw, 28px);
+
 }
 
 p, li{
@@ -80,14 +85,15 @@ p, li{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: #FFF5F5 ;
+    color:#232323;
+    font-size: clamp(14px, 1.5vw, 18px);
 }
 
 .postre_info {
         
     margin: 6vh auto ;
     width: 68vw;
-    height: 40vh;
+    min-height: 40vh;
     
 
 }
@@ -104,23 +110,36 @@ p, li{
 
 .ingredientes{
     width: 40vw;
-    height: 60vh;
-    
+   min-height: 60vh;
+    border-left: 5px solid #4f6815;
 }
 
 .info_extra{
 
     width: 20vw;
-    height: 40vh;
-    
+    min-height: 40vh;
+    border-left: 5px solid #4f6815;
 }
-
+.info_extra p{
+   display: flex;
+   align-items: center;
+   gap: 8px; 
+}
+.tiempo::before{
+    content: "⏱️";
+}
+.porcion::before{
+    content: "🍽️";
+}
+.nivel::before{
+    content: "⭐";
+}
 .receta{
 
         
     margin: 8vh auto; 
     width: 68vw;
-    height: 80vh;
+    min-height: 80vh;
 
 }
 
