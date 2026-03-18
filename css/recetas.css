@@ -147,8 +147,10 @@ p, li{
 footer{
     display: flex;
     justify-content: center;
-    margin-top: 6vh;
+    gap: 100px ;
+    margin-top: 20px;
 }
+
 .btn_volver{
     display: block;
     width: 100px;
@@ -159,32 +161,33 @@ footer{
     transition: 0.3s;
 }
 
+
 .btn1{
-    background-image: url("../elementos/Recurso\ 5.png");
+    background-image: url("../elementos/Recurso\ 3 (2).png");
 }
 .btn1:hover{
-    background-image: url("../elementos/Recurso\ 4.png");
+    background-image: url("../elementos/Recurso\ 8.png");
 }
 
 
 .btn2{
-    background-image: url("../elementos/Recurso\ 5.png");
+    background-image: url("../elementos/Recurso\ 6.png");
 }
 .btn2:hover{
-    background-image: url("../elementos/Recurso\ 4.png");
+    background-image: url("../elementos/Recurso\ 9.png");
 }
 
 
 .btn3{
-    background-image: url("../elementos/Recurso\ 5.png");
+    background-image: url("../elementos/Recurso\ 10.png");
 }
 .btn3:hover{
-    background-image: url("../elementos/Recurso\ 4.png");
+    background-image: url("../elementos/Recurso\ 11.png");
 }
 
 
 .btn4{
-    background-image: url("../elementos/Recurso\ 3.png");
+    background-image: url("../elementos/tarta.png");
 }
 .btn4:hover{
     background-image: url("../elementos/botòn\ espichado.png");
@@ -197,4 +200,3 @@ footer{
 .btn5:hover{
     background-image: url("../elementos/recurso 4.png");
 }
-
